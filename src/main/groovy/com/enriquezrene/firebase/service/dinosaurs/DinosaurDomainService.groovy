@@ -3,10 +3,14 @@ package com.enriquezrene.firebase.service.dinosaurs
 import com.enriquezrene.domain.dinosaurs.Dinosaur
 import com.enriquezrene.firebase.FireBaseRoot
 import com.google.firebase.database.DatabaseReference
+import groovy.transform.CompileStatic
+import org.springframework.stereotype.Component
 
 /**
  * Created by rene on 15/09/16.
  */
+@CompileStatic
+@Component
 class DinosaurDomainService {
 
     DatabaseReference dinosaursRef
